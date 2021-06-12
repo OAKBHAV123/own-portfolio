@@ -1,0 +1,98 @@
+body
+{
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+
+  text-align:center;
+}
+
+img
+{
+  width:300px;
+  border-radius:30px;
+}
+
+h1
+{
+  font-size:50px;
+  font-variant:small-caps;
+  text-shadow:2px 2px #1DE9B6; 
+  font-family: 'Pangolin', cursive;
+}
+
+h2
+{
+  font-size:57px;
+  font-variant:small-caps;
+     text-shadow:2px 2px #FFFF00 ;
+     font-family: 'Teko', sans-serif;
+}
+
+h3
+{
+  font-size:50px;
+}
+
+p
+{
+  font-size:30px;
+  padding:20px;
+    ;
+}
+
+#bio
+{
+    padding: 20px;
+    }
+
+ .menu
+    {
+       list-style: none;
+       font-family: cursive; 
+       float: right;
+       top: 10px;
+       right: 30px;
+       color:rebeccapurple ;
+       cursor: pointer;
+    }
+
+    .link
+    {
+        color:blueviolet ;
+        display: inline;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
+    .link:hover
+    {
+        background-color: deeppink;
+    }
+
+    a
+    {
+        text-decoration: none;
+    }
+
+    html
+    {
+        scroll-behavior: smooth;
+    }
+
+    .Sport
+    {
+      transition: transform .2s;
+    }
+    .Sport:hover
+    {
+      transform: scale(0.9);
+    }
+
+    .Sport
+    {
+      height: 290px;
+      width: 250px;
+    }
